@@ -1,7 +1,12 @@
+import DefaultList from "../component/List/DefaultList";
+
 export default function Main(){
     return(
         <div>
-            Main
+            <div>
+                main
+            </div>
+            <DefaultList />
         </div>
     )
 }

@@ -1,9 +1,12 @@
+import Header from "./header";
+
 export default function Layout ({children}:any){
     return(
-        <div className="flex border-2 black">
-            <div>헤더</div>
+        <div className="bg-slate-500 w-96 h-svh m-auto">
+            <div>
+                <Header />
+            </div>
             <section>
-                <div>네비게이션</div>
                 <div>{children}</div>
             </section>
         </div>

@@ -4,8 +4,8 @@ import LogIn from './page/login';
 import SignUp from './page/signup';
 import Main from './page/main';
 import MyPage from './page/mypage';
-import Layout from './component/layout';
-import LoginPageLayout from './component/loginPageLayout';
+import Layout from './component/Layout/layout';
+import LoginPageLayout from './component/Layout/loginPageLayout';
 import Landing from './page/landing';
 
 function App() {
